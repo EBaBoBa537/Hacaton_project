@@ -1,0 +1,200 @@
+@font-face { font-family: zagolovok; src: url("materials/fonts/Nunito.ttf"); }
+@font-face { font-family: nazvanie; src: url("materials/fonts/Gogoia.ttf"); }
+@font-face { font-family: nazvanie_№; src: url("materials/fonts/CalibriLight.ttf"); }
+@font-face { font-family: text; src: url("materials/fonts/Calibri.ttf"); }
+
+html { scroll-behavior: smooth; }
+body { margin: 0px; overflow-x: hidden; }
+img { user-select: none; -webkit-user-select: none; }
+.block a { text-decoration: none; color: black; }
+.block b { font-weight: normal; }
+html::-webkit-scrollbar { background-color: #898989;   width: 12px; }
+html::-webkit-scrollbar-thumb { background-color: #e6e6e6; }
+html::-webkit-scrollbar-thumb:hover { background-color: #ffffff;  }
+html::-webkit-scrollbar-track { background-color: #898989; }
+
+/* body {
+    background-image: url("materials/images/fon_1.png");
+} */
+
+/* menu */
+
+.menu {
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    border-bottom: 3px solid #ffffff;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    font-family: "zagolovok";
+    /* background-color: #263a61; */
+    background-color: #110f0f;
+    z-index: 100;
+}
+.menu .menuSpisok {
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    width: 840px;
+    top: 0px;
+    left: 145px;
+    font-size: 20px;
+    font-family: "zagolovok";
+    text-align: right;
+    overflow: hidden;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+}
+.menu .menuTrigger {
+    height: 40px;
+    position: absolute;
+    width: 900px;
+    top: 0px;
+    left: 0px;
+    background-color: #ffffff00;
+}
+.menu b {
+    display: block;
+    padding-left: 20px;
+    height: 40px;
+    color: #ffffff;
+    width: max-content;
+    float: left;
+    text-decoration: none;
+    font-weight: normal;
+}
+.menu a {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #d3d0ad;
+    text-decoration: none;
+}
+
+/* content */
+
+.content {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.block {
+    position: relative;
+    width: 100%;
+}
+
+/* block 1 */
+
+.block_1 {
+    height:855px;
+    overflow: hidden;
+}
+
+.block_1 h1 {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    color: #ffffff;
+    width: 100%;
+    font-size: 140px;
+    font-family: "nazvanie";
+    font-weight: normal; 
+    margin: 0px;
+}
+
+/* block 2 */
+
+.block_2 {
+    /* background-color: #263a61; */
+    background-color: #110f0f;
+    height: 170px;
+    width: 100%;
+}
+.block_2 h1 {
+    display: block;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: "nazvanie_№";
+    font-size: 70px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    line-height: 170px;
+}
+
+/* block 3 */
+
+.block_3 {
+    background-color: #ffffff;
+}
+
+.block_3 h2 {
+    display: inline-block;
+    font-size: 50px;
+    width: 100%;
+    font-family: "zagolovok";
+    font-weight: normal; 
+    margin: 0px;
+}
+.block_3 p {
+    margin: 0px;
+    font-family: "text";
+    font-size: 20px;
+}
+.block_3 b {
+    font-family: "text";
+    font-size: 20px;
+}
+.block_3 span {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.block_3 span img {
+    position: absolute;
+}
+.block_3 span p {
+    position: absolute;
+}
+
+
+/* block last */
+
+.block_last {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "text";
+    background-color: #110f0f;
+    color: #ffffff;
+}
+.block_last b {
+    padding-left: 10px;
+}
+
+/* toBeginButton */
+
+a.toBeginButton {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 25px;
+    bottom: 25px;
+    font-size: 35px;
+    background-color: #282423;
+    color: #ffffff;
+    text-align: center;
+    line-height: 48px;
+    z-index: 150;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    text-decoration: none;
+}

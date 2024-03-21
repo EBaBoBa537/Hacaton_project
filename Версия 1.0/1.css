@@ -1,0 +1,360 @@
+@font-face { font-family: zagolovok; src: url("materials/fonts/Nunito.ttf"); }
+@font-face { font-family: nazvanie; src: url("materials/fonts/Gogoia.ttf"); }
+@font-face { font-family: nazvanie_№; src: url("materials/fonts/CalibriLight.ttf"); }
+@font-face { font-family: text; src: url("materials/fonts/Calibri.ttf"); }
+
+html { scroll-behavior: smooth; }
+body { margin: 0px; overflow-x: hidden; }
+img { user-select: none; -webkit-user-select: none; }
+.block a { text-decoration: none; color: black; }
+.block b { font-weight: normal; }
+html::-webkit-scrollbar { background-color: #898989;   width: 12px; }
+html::-webkit-scrollbar-thumb { background-color: #e6e6e6; }
+html::-webkit-scrollbar-thumb:hover { background-color: #ffffff;  }
+html::-webkit-scrollbar-track { background-color: #898989; }
+
+/* body {
+    background-image: url("materials/images/fon_1.png");
+} */
+
+/* menu */
+
+.menu {
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    border-bottom: 3px solid #ffffff;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    font-family: "zagolovok";
+    /* background-color: #263a61; */
+    background-color: #110f0f;
+    z-index: 100;
+}
+.menu b {
+    display: block;
+    padding-left: 20px;
+    height: 40px;
+    color: #ffffff;
+    width: max-content;
+    float: left;
+    text-decoration: none;
+    font-weight: normal;
+}
+.menu a {
+    padding-left: 20px;
+    height: 40px;
+    color: #ffffff;
+    width: max-content;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #d3d0ad;
+    text-decoration: none;
+}
+
+/* content */
+
+.content {
+    width: 100%;
+    /* margin-right: 15%;
+    margin-left: 15%; */
+    background-color: #313131;
+}
+
+.block {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+.block span {
+    overflow: hidden;
+}
+.block h2 {
+    margin: 0px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: "zagolovok";
+}
+.block p {
+    font-size: 20px;
+    font-family: "text";
+}
+
+/* block 1 */
+
+.block_1 {
+    height:855px;
+    overflow: hidden;
+}
+
+.block_1 h1 {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    color: #ffffff;
+    width: 100%;
+    font-size: 140px;
+    font-family: "nazvanie";
+    font-weight: normal; 
+    margin: 0px;
+}
+
+.block_1 a {
+    display: block;
+    background-color: #282423;
+    border: 3px solid #ffffff;
+    position: absolute;
+    font-family: "nazvanie";
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 45px;
+    right: -20px;
+    border-radius: 15px;
+    height: 45px;
+    width: 166px;
+    padding-left: 5px;
+    position: absolute;
+    z-index: 100;
+}
+.block_1 a b {
+    font-weight: normal;
+    font-family: "nazvanie_№";
+}
+.block_1 a:hover {
+    color: #d3d0ad;
+    text-decoration: none;
+}
+
+/* block 2 */
+
+.block_2 {
+    background-color: #818181;
+}
+
+/* ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠    КОД ВАНИ    ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ */
+#underHead {
+    width: 100%;
+    padding: 40px 0 40px 0;
+    background-color: #828282;
+    display: flex;
+    align-items: center;
+}
+#underHead h2 {
+    display: inline-block;
+    width: 25%;
+    margin: 0 0 0 9%;
+    font-weight: lighter;
+}
+#underHead p {
+    display: inline-block;
+    width: 45%;
+    margin: 0 10% 0 10%;
+    font-size: 25px;
+    color: #ffffff;
+}
+/* ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢    КОД ВАНИ    ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢  */
+
+/* block 3 */
+
+.block_3 {
+    background-color: #484848;
+}
+
+/* ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠    КОД ВАНИ    ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ */
+#news {
+    width: 100%;
+    padding: 20px 0 10px 0;
+    background-color: #484848;
+  }
+  #news h2 {
+    text-align: center;
+    color: white;
+    margin: 10px 0 10px 0;
+  }
+  #news h3 {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+  .subNews {
+    width: 70%;
+    margin: auto;
+    background-color: #828282;
+  }
+  .subNews img {
+    display: inline-block;
+    height: 400px;
+    width: 40%;
+    margin: 25px;
+  }
+  .subNews div {
+    display: inline-block;
+    width: 40%;
+    margin: 25px;
+    vertical-align: top;
+  }
+  .subNews h3 {
+    color: white;
+    display: block;
+    margin-top: 50px;
+  }
+  .subNews p {
+    display: block;
+    width: 100%;
+    margin: 25px 25px 25px 0px;
+  }
+  .newsUnderLine {
+    height: 3px;
+    width: 10%;
+    background-color: white;
+    display: inline-block;
+  }
+  #firstLine {
+    margin-left: 30%;
+  }
+  #secondLine {
+    margin: 0 5% 0 5%;
+    align-items: center;
+  }
+/* ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢    КОД ВАНИ    ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢ ☢  */
+
+/* block 4 */
+
+.block_4 {
+    background-color: #313131; 
+}
+.block_4 span {
+    display: block;
+    height: 400px;
+}
+.block_4 span img {
+    position: absolute;
+    width: 30%;
+    left: 120px;
+}
+.block_4 span p {
+    position: absolute;
+    width: 50%;
+    right: 40px;
+    color: #ffffff;
+    font-size: 25px;
+}
+.block_4 span p a {
+    font-size: 50px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.block_4 span div {
+    position: relative;
+    left: 48%;
+    top: 200px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: "text";
+    line-height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+/* block 5 */
+
+.block_5 {
+    background-color: #484848;
+}
+.block_5 h2 {
+    color:#ffffff;
+    text-align: center;
+}
+.block_5 span {
+    display: block;
+    height: 300px;
+}
+.block_5 span img {
+    height: 200px;
+    position: absolute;
+    right: 50px;
+}
+.block_5 span p{
+    position: absolute;
+    width: 70%;
+    left:7%;
+    color:#ffffff;
+    font-size: 25px;
+    font-family: "nazvanie_№";
+}
+.block_5 span p b{
+    font-weight: normal;
+    margin: 0px;
+    color:#ffffff;
+    font-size: 40px;
+    font-family: "nazvanie_№";
+}
+
+/* block 6 */
+
+.block_6 {
+    background-color: #313131;
+}
+.block_6 span {
+    display: block;
+    height: 550px;
+}
+.block_6 span h2 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 105px;
+    color: #ffffff;
+}
+.block_6 span img {
+    position: absolute;
+    right: 30px;
+    top: 75px;
+}
+.block_6 span p {
+    position: absolute;
+    color:#ffffff;
+    font-size: 30px;
+    font-family: "nazvanie_№";
+    width: 40%;
+    left: 100px;
+    top: 238px;
+}
+
+/* block last */
+
+.block_last {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "text";
+    background-color: #110f0f;
+    color: #ffffff;
+}
+.block_last b {
+    padding-left: 10px;
+}
+
+/* toBeginButton */
+
+a.toBeginButton {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 25px;
+    bottom: 25px;
+    font-size: 35px;
+    background-color: #282423;
+    color: #ffffff;
+    text-align: center;
+    line-height: 48px;
+    z-index: 150;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    text-decoration: none;
+}
